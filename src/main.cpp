@@ -546,7 +546,7 @@ void loop() {
             Serial.println("Tens la última versió.");
         }
     }
-
+    Serial.println("Bri: " + (bri/500.0)*100;
     delay(100);
 }
 //bump version.txt
