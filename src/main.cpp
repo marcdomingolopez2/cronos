@@ -52,7 +52,7 @@ WiFiCred wifiList[] = {
     {"gencat_ENS_EDU_LAB","RObOt!c@"},
     {"gencat_ENS_EDU_LAB","R0b0t!c@"},
     {"iPhone de: Quim", "quim4444"},
-    {"Quim", "2009"}
+    {"Quim", "07072009"}
 };
 
 const int WIFI_COUNT = sizeof(wifiList) / sizeof(wifiList[0]);
