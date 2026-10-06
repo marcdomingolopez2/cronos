@@ -51,7 +51,7 @@ struct WiFiCred {
 WiFiCred wifiList[] = {
     {"gencat_ENS_EDU_LAB","RObOt!c@"},
     {"gencat_ENS_EDU_LAB","R0b0t!c@"},
-    {"iPhone de: Quim", "quim4444"}
+    {"iPhone de: Quim", "quim4444"},
     {"Quim", "2009"}
 };
 
