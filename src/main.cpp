@@ -49,10 +49,10 @@ struct WiFiCred {
 };
 
 WiFiCred wifiList[] = {
+    {"Quim", "07072009"},
     {"gencat_ENS_EDU_LAB","RObOt!c@"},
     {"gencat_ENS_EDU_LAB","R0b0t!c@"},
-    {"iPhone de: Quim", "quim4444"},
-    {"Quim", "07072009"}
+    {"iPhone de: Quim", "quim4444"}
 };
 
 const int WIFI_COUNT = sizeof(wifiList) / sizeof(wifiList[0]);
@@ -70,8 +70,6 @@ bool enviarHora() {
     int hour   = timeinfo.tm_hour;
     int minute = timeinfo.tm_min;
 
-    // Entre 06:00 i 14:59
-    if (hour < 6 || hour >= 15) return false;
     // Entre 06:00 i 19:59
     if (hour < 0 || hour >= 24) return false;
 
