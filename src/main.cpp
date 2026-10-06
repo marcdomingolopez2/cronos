@@ -70,7 +70,7 @@ bool enviarHora() {
     int minute = timeinfo.tm_min;
 
     // Entre 06:00 i 19:59
-    if (hour < 6 || hour >= 20) return false;
+    if (hour < 0 || hour >= 24) return false;
 
     // Només cada 5 minuts
     if (minute % 5 != 0) return false;
